@@ -1,0 +1,13 @@
+# This .gitignore file should be placed at the root of your Wwise project directory
+# https://www.audiokinetic.com/en/library/edge/?source=Help&id=using_wwise_with_source_control_system
+
+.backup*
+.cache*
+*.akd
+*.prof
+*.validationcache
+*.wsettings
+AkWwiseProjectData.asset
+IncrementalSoundBankData.xml
+PluginInfo.xml
+SoundbanksInfo.xml
