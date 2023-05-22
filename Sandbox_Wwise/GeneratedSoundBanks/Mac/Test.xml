@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="3157003241" Type="User" GUID="{827A104B-AA08-4EB1-9A69-17CBEEB964A7}" Language="SFX" Hash="{01F96B32-0373-5843-7D4C-16EF198AEB6B}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
+			<ShortName>Test</ShortName>
+			<Path>Test.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="620105948" Name="Sine" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Test\Sine" GUID="{142F51E9-F283-4856-A1F8-B96CE467A15D}" LibName="Wwise Sine" LibId="6553602"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" GUID="{599E2E3B-7BEF-4700-B113-8B706B32D6D5}" DurationType="OneShot" DurationMin="0.3" DurationMax="0.3">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="620105948"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2852A379-8C9A-0108-E2FA-C2A7B8D29B4D}</FileHash>
+</SoundBanksInfo>

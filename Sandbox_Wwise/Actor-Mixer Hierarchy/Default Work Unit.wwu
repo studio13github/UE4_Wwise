@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4F5AB5A4-8D3C-43AC-AC80-FA3A8A4714C0}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{4F5AB5A4-8D3C-43AC-AC80-FA3A8A4714C0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4F5AB5A4-8D3C-43AC-AC80-FA3A8A4714C0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Test" ID="{3334D4D4-1BBD-4FCD-B4B8-BC7C9EDAA91C}" ShortID="586568731">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5337E060-596C-43FB-9544-4272856389B0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8E5910D9-7CF7-44F8-99E8-F9B6402DE114}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Sine" ID="{142F51E9-F283-4856-A1F8-B96CE467A15D}" ShortID="620105948" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+							<PropertyList>
+								<Property Name="SineDuration" Type="Real32" Value="0.3"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Sine" ID="{142F51E9-F283-4856-A1F8-B96CE467A15D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

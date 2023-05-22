@@ -1,0 +1,51 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3157003241",
+    "Type": "User",
+    "GUID": "{827A104B-AA08-4EB1-9A69-17CBEEB964A7}",
+    "Language": "SFX",
+    "Hash": "{01F96B32-0373-5843-7D4C-16EF198AEB6B}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
+    "ShortName": "Test",
+    "Path": "Test.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "620105948",
+       "Name": "Sine",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Test\\Sine",
+       "GUID": "{142F51E9-F283-4856-A1F8-B96CE467A15D}",
+       "LibName": "Wwise Sine",
+       "LibId": "6553602"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3157003241",
+      "Name": "Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Test",
+      "GUID": "{599E2E3B-7BEF-4700-B113-8B706B32D6D5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3",
+      "DurationMax": "0.3",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "620105948"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{355C0EAD-4B94-783F-45B9-0B6D23608AF9}"
+ }
+}
